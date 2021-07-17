@@ -227,7 +227,7 @@ footer p {
 .container .card-item {
 	position     : relative;
 	width        : 300px;
-	height       : 400px;
+	height       : 300px;
 	margin       : 0 auto;
 	background   : #000;
 	border-radius: 15px;
@@ -265,6 +265,7 @@ footer p {
 .pimpim {
 	text-align: center;
 	color     : white;
+	
 }
 
 .uni-text,
@@ -274,23 +275,26 @@ footer p {
 	text-align : center;
 	font-size  : 15px;
 	font-family: 'Verdana, sans-serif';
+	background-color: #fafaf5;
+	color           : #000802;
+	
 }
 
-.container .card-item .face.face1 .uni-text {
-	background-color: #080801;
+/* .container .card-item .face.face1 .uni-text {
+	background-color: #fafaf5;
 	background-clip : text;
-	color           : #d6e418;
+	color           : #000802;
 
-}
+} */
 
-.container .card-item .face.face1 .wyrm-text {
+/* .container .card-item .face.face1 .wyrm-text {
 	background-color: #080801;
 	background-clip : text;
 	color           : #00fffc;
 
-}
+} */
 
-.container .card-item .face.face1 .grifo-text {
+/* .container .card-item .face.face1 .grifo-text {
 	background-color: #080801;
 	background-clip : text;
 	color           : #fc00ff;
@@ -303,7 +307,7 @@ footer p {
 	color           : #9d47d6;
 
 
-}
+} */
 
 .container .card-item .face.face2 {
 	transition: 0.5s;
@@ -313,7 +317,7 @@ footer p {
 	margin     : 0;
 	padding    : 0;
 	font-size  : 10em;
-	color      : #fff;
+	color      : rgb(233, 12, 12);
 	transition : 0.5s;
 	text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 	z-index    : 10;
@@ -351,32 +355,17 @@ footer p {
 
 @media (max-width: 610px) {
 	.container{
-	height: 750px;
+	height: 850px;
 	
 	display              : grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	margin               : 10px auto;
+	padding              : 20px 0;
+	}
+	.gif {
+		width:100px;
+		height: 100px;
+	}
 	
-	margin               : 0 auto;
-	padding              : 40px 0;
-	}
-
-	.background--two {
-	  height: 1400px;
-	}
-	.background--two .block-section--two {
-	  display: grid;
-	  height: 90%;
-	}
-	.background--two .block-section--two p {
-	  text-align: center;
-	  margin-left: 0px;
-	}
-	.background--two .block-section--two img {
-	  margin: 0 auto;
-	  width: 60%;
-	}
-  
-	.footer-contain {
-	  margin-top: calc(10px - 100px);
-	}
   }
+
