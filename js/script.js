@@ -13,13 +13,14 @@ form.addEventListener('submit', (e) => {
 
     let content = document.getElementById('content')
 
-    let carregando = `<p>Carregando...</p>`
+    let carregando = `<p class="cadastrando">Carregando...</p>`
 
-    let pronto = `<p>Cadastro realizado com sucesso!</p>`
+    let pronto = `<p class="cadastrado">Cadastro realizado com sucesso!</p>`
 
 
     content.innerHTML =  carregando
 
+    console.log("Nome: " + nome, "E-mail cadastrado: " + email)
     setTimeout(() => {
         content.innerHTML = pronto
     }, 1000)

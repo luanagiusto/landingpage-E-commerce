@@ -1,4 +1,4 @@
-*{
+* {
 	margin     : 0;
 	padding    : 0;
 	font-family: 'Dancing Script';
@@ -36,17 +36,17 @@ html {
 }
 
 header .container {
-	display        : flex;
-	flex-direction : row;
-	align-items    : center;
-	justify-content: center;
-	height         : 50px;
-	position       : relative;
-	left      : 0;
-	right     : 5%;
-	bottom    : 0;
-	opacity   : 1;
-	transition: opacity .5s;
+	display         : flex;
+	flex-direction  : row;
+	align-items     : center;
+	justify-content : center;
+	height          : 50px;
+	position        : relative;
+	left            : 0;
+	right           : 5%;
+	bottom          : 0;
+	opacity         : 1;
+	transition      : opacity .5s;
 	background-color: transparent;
 }
 
@@ -70,7 +70,7 @@ header .cabecalho {
 .sub-nav {
 	grid-area: sb;
 	padding  : 20px 20px 0 0px;
-	
+
 }
 
 header nav a {
@@ -87,17 +87,17 @@ header nav a:hover {
 	color: #aaa;
 }
 
-.pagamentos{
-	margin-right: 10px;
-	display: block;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
+.pagamentos {
+	margin-right   : 10px;
+	display        : block;
+	margin         : 0;
+	padding        : 0;
+	display        : inline-block;
 	justify-content: space-between;
-	position: absolute;
-	bottom: 0;
-	color:#fff;
-	
+	position       : absolute;
+	bottom         : 0;
+	color          : #fff;
+
 }
 
 
@@ -115,28 +115,20 @@ header nav a:hover {
 	color: rgb(233, 16, 160);
 }
 
-.mystic {
-	width        : 50px;
-	border-radius: 50px;
-	z-index      : -1;
-	align-items  : left;
-}
 
-
-
-.anuncio{
-	width: 100%;
-	display: flex;
+.anuncio {
+	width          : 100%;
+	display        : flex;
 	justify-content: center;
-	margin-top: 200px;
+	margin-top     : 200px;
 }
 
 .surpresa {
-	color:#00fffc;
-	text-align: left;
-	font-size: 40px;
+	color       : #00fffc;
+	text-align  : left;
+	font-size   : 40px;
 	margin-right: 30px;
-	font-family: 'Sail';
+	font-family : 'Sail';
 }
 
 .surpresa:hover {
@@ -145,8 +137,8 @@ header nav a:hover {
 
 .gif {
 	align-items: right;
-	bottom: 50px;
-	position: relative;
+	bottom     : 50px;
+	position   : relative;
 }
 
 .section-one {
@@ -165,37 +157,60 @@ header nav a:hover {
 .card-container {
 	background   : #fff;
 	border-radius: 15px;
+	border       : 5px solid #f78214;
 	padding      : 25px;
 	max-width    : 450px;
 	display      : grid;
+
 }
 
-.cadastro{
+.cadastro {
+	text-align: center;
+}
+
+#enviarCadastro {
+	text-align      : center;
+	background-color: #cf9ff0;
+}
+
+#enviarCadastro:hover {
+	color           : #f4f8f8;
+	background-color: #490564;
+}
+
+.cadastrando {
 	text-align : center;
+	font-size  : 15px;
+	font-family: 'Verdana, sans-serif';
 }
 
+.cadastrado {
+	text-align : center;
+	font-size  : 25px;
+	font-weight: 600;
+}
 
-/* form{
-    display: grid;
-} */
 
 
 input {
-	width              : 100%;
-	height             : 30px;
-	margin-bottom      : 10px;
-	border-radius      : 12px;
-	text-align         : center;
-	/* background-color: black; */
+	width        : 100%;
+	height       : 30px;
+	margin-bottom: 10px;
+	border-radius: 12px;
+	text-align   : center;
+	font-size    : 15px;
+	font-family  : 'Verdana, sans-serif';
 
 }
 
-footer {
-	
+footer p {
+
 	padding         : 15px;
 	text-align      : center;
 	background-color: #000;
 	color           : #fff;
+	font-size       : 15px;
+	font-family     : 'Verdana, sans-serif';
 }
 
 
@@ -217,6 +232,7 @@ footer {
 	background   : #000;
 	border-radius: 15px;
 	box-shadow   : 0 15px 60px rgba(0, 0, 0, 0.5);
+
 }
 
 .container .card-item .face {
@@ -228,41 +244,65 @@ footer {
 	display        : flex;
 	justify-content: center;
 	align-items    : center;
+
 }
 
 .container .card-item .face.face1 {
 	box-sizing: border-box;
 	padding   : 20px;
+
 }
 
 .container .card .face.face1 h2 {
 	margin : 0;
 	padding: 0;
+
 }
 
-.container .card-item .face.face1 .uni {
-	background-color       : #080801;
-	background-clip: text; 
-	color:#d6e418;
-	
+.uni,
+.wyrm,
+.grifo,
+.pimpim {
+	text-align: center;
+	color     : white;
 }
 
-.container .card-item .face.face1 .wyrm {
-	background-color       : #080801;
-	background-clip: text;
-	color:#00fffc;
+.uni-text,
+.wyrm-text,
+.grifo-text,
+.pimpim-text {
+	text-align : center;
+	font-size  : 15px;
+	font-family: 'Verdana, sans-serif';
 }
 
-.container .card-item .face.face1 .grifo {
-	background-color       : #080801;
-	background-clip: text;
-	color:#fc00ff;
+.container .card-item .face.face1 .uni-text {
+	background-color: #080801;
+	background-clip : text;
+	color           : #d6e418;
+
 }
 
-.container .card-item .face.face1 .pimpim {
-	background-color       : #080801;
-	background-clip: text;
-	color:#9d47d6;
+.container .card-item .face.face1 .wyrm-text {
+	background-color: #080801;
+	background-clip : text;
+	color           : #00fffc;
+
+}
+
+.container .card-item .face.face1 .grifo-text {
+	background-color: #080801;
+	background-clip : text;
+	color           : #fc00ff;
+
+}
+
+.container .card-item .face.face1 .pimpim-text {
+	background-color: #080801;
+	background-clip : text;
+	color           : #9d47d6;
+
+
 }
 
 .container .card-item .face.face2 {
@@ -306,3 +346,37 @@ footer {
 	background-image: linear-gradient(20deg, #080801 0%, #aa58e0 45%, #080801 100%);
 	border-radius   : 15px;
 }
+
+
+
+@media (max-width: 610px) {
+	.container{
+	height: 750px;
+	
+	display              : grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	
+	margin               : 0 auto;
+	padding              : 40px 0;
+	}
+
+	.background--two {
+	  height: 1400px;
+	}
+	.background--two .block-section--two {
+	  display: grid;
+	  height: 90%;
+	}
+	.background--two .block-section--two p {
+	  text-align: center;
+	  margin-left: 0px;
+	}
+	.background--two .block-section--two img {
+	  margin: 0 auto;
+	  width: 60%;
+	}
+  
+	.footer-contain {
+	  margin-top: calc(10px - 100px);
+	}
+  }
